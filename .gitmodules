@@ -1,0 +1,3 @@
+[submodule "sunpy"]
+	path = sunpy
+	url = https://github.com/sunpy/sunpy.git
