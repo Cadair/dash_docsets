@@ -1,3 +1,6 @@
 [submodule "sunpy"]
 	path = sunpy
 	url = https://github.com/sunpy/sunpy.git
+[submodule "astropy"]
+	path = astropy
+	url = http://github.com/astropy/astropy
