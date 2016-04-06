@@ -4,6 +4,12 @@ language: c
 
 # Setting sudo to false opts in to Travis-CI container-based builds.
 sudo: false
+addons:
+    apt:
+        packages:
+            - graphviz
+            - texlive-latex-extra
+            - dvipng
 
 # Configure the build environment. Global varibles are defined for all configurations.
 env:
