@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 cd output;
 
@@ -7,7 +6,7 @@ git init
 git config user.name "Travis CI"
 git config user.email "stuart@mumford.me.uk"
 
-git add "*.tar"
+git add "*.tgz"
 git add "*.xml"
 
 git commit -m "Deploy to GitHub Pages"
