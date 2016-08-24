@@ -4,3 +4,6 @@
 [submodule "astropy"]
 	path = astropy
 	url = http://github.com/astropy/astropy
+[submodule "wcsaxes"]
+	path = wcsaxes
+	url = https://github.com/astrofrog/wcsaxes
