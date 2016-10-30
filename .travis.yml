@@ -15,7 +15,8 @@ addons:
 env:
     global:
         - GH_REF=github.com/cadair/dash_doctests.git
-        - CONDA_DEPENDENCIES="sunpy sphinx cython"
+        - CONDA_CHANNELS="conda-forge"
+        - CONDA_DEPENDENCIES="sunpy sphinx cython sphinx_rtd_theme"
         - PIP_DEPENDENCIES="doc2dash"
         - PYTHON_VERSION=2.7
         
